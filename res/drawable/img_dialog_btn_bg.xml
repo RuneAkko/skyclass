@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non focused states -->
+    <item android:drawable="@drawable/img_dialog_btn_press" android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+    <item android:drawable="@drawable/img_dialog_btn_press" android:state_focused="false" android:state_pressed="false" android:state_selected="true"/>
+
+    <!-- Pressed -->
+    <!-- Non focused states -->
+
+    <item android:drawable="@drawable/img_dialog_btn_norml" android:state_focused="false" android:state_pressed="true" android:state_selected="false"/>
+    <item android:drawable="@drawable/img_dialog_btn_norml" android:state_focused="false" android:state_pressed="true" android:state_selected="true"/>
+
+</selector>

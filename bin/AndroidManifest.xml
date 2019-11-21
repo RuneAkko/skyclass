@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.svod"
+    android:versionCode="1"
+    android:versionName="2.8" >
+  <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 访问internet权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+      <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- Optional. Required for location feature -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 手机 pos 权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <application
+        android:name="com.android.publiccourse.OBMainApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/appname"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.android.svod.Login"
+            android:label="@string/appname" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+         <activity
+            android:name="com.android.publiccourse.OBLBaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.publiccourse.OBLServiceMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.publiccourse.OBLCourseMainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.android.svod.Page1"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.android.svod.CourseMenuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+       
+        <activity
+            android:name="com.android.svod.Page2"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.android.svod.CourseChapterListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.android.svod.CourseDocActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.svod.Page3"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.svod.TabHostActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.svod.Page4"
+            android:label="@string/title_activity_page4" >
+        </activity>
+        <activity
+            android:name="com.android.svod.intelligentroom.MainActivity"
+            >
+        </activity>
+        
+        <activity
+            android:name="com.android.svod.intelligentroom.VideoPlayerActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.android.publiccourse.OBLMediaPlayer"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+           <activity
+            android:name="com.android.publiccourse.OBLNetworkAbortDetails"
+            android:screenOrientation="portrait" />
+            <service
+                     android:name="com.android.publiccourse.BindDataService"
+                       android:enabled="true">
+         
+           </service>
+            <activity
+            android:name="com.android.svod.DownFileList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity android:name="com.android.svod.VideoPlayerActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation"></activity>
+  <!--           <activity android:name="com.android.svod.vitamioPlayer"
+            android:configChanges="orientation|keyboard|keyboardHidden|navigation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>--> 
+        <activity
+            android:name="com.android.ui.vitamio.InitActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" 
+            />    
+          
+           <!-- Android version updater -->      
+            <service android:name="com.android.updater.UpdateService" >
+                
+             </service>
+            <service android:name="com.android.svod.SensorService" 
+                android:enabled="true" 
+             ></service>
+             <service android:name="com.android.sensorecord.uploadService"
+                  android:enabled="true" ></service>
+             <service
+                     android:name="com.android.service.intelligentroom.MainService"
+                       android:enabled="true">
+         
+           </service>    
+        
+    </application>
+
+</manifest>

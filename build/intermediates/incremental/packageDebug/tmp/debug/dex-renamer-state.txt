@@ -1,0 +1,4 @@
+#Mon Nov 18 21:27:23 CST 2019
+base.0=/Users/mhansen/Desktop/SVod_phone_newnewFor9/SVod_phone/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="learningbar_sdk_connection_environment">test</string>
+    <string name="learningbar_sdk_soap_namespace">http://learningbar.open.com.cn/CourseService/</string>
+	<string name="skyclass_sdk_soap_namespace">http://tempuri.org/</string>
+    <string name="learningbar_sdk_soap_groupspace">http://learningbar.open.com.cn/DiscussGroup/</string>
+    <string name="learningbar_sdk_soap_personal">http://learningbar.open.com.cn/PersonalHomepage/</string>
+
+
+    <!-- 测试服务器IP地址 
+    <string name=".comlearningbar_sdk_soap_url">http://10.96.142.51:8888/Services/</string> -->
+    <!-- 正式服务器域名 IP地址-->
+    <!---->
+
+    <!--xueba.open.com.cn died-->
+    <string name="learningbar_sdk_soap_url">http://xueba.open.com.cn/Services/</string>
+
+    <!--publiccourselist.xjtudlc.com died-->
+
+	<string name="skyclass_sdk_soap_url">https://publiccourselist.xjtudlc.com/</string>
+
+
+    <!-- 正式服务器内网 IP地址 -->
+    <!-- <string name="learningbar_sdk_soap_url">http://10.100.133.53:80/Services/</string>-->
+    
+    <string name="learningbar_welcome_url">http://basic.open.com.cn/facade/message/getWelcomeMessage.json</string>
+    
+    <string name="learningbar_sdk_soap_format_user">UserService.asmx?wsdl</string>
+    <string name="learningbar_sdk_soap_format_course">CourseService.asmx?wsdl</string>
+	<string name="skyclass_sdk_soap_format_course">Service.asmx?wsdl</string>
+
+    <string name="learningbar_sdk_soap_format_group">DiscussGroup.asmx?wsdl</string>
+    <string name="learningbar_sdk_soap_format_friend">PersonalHomepage.asmx?wsdl</string>
+    <string name="learningbar_sdk_soap_soapheader">CredentialSoapHeader</string>
+    <string name="learningbar_sdk_soap_soapheader_key1">ClientCredential</string>
+    <string name="learningbar_sdk_soap_soapheader_value1">OpenLearningBar</string>
+    <string name="learningbar_sdk_soap_soapheader_key2">TerminalType</string>
+    <string name="learningbar_sdk_soap_soapheader_value2">1234567890</string>
+    <string name="learningbar_sdk_method_User_Register">Register</string>
+    <string name="learningbar_sdk_method_User_Login">Login</string>
+    <string name="learningbar_sdk_method_GetPublicCourseList">GetPublicCourseList</string>
+    <string name="learningbar_sdk_method_GetCourseList">GetCourseList</string>
+    <string name="learningbar_sdk_method_GetCourseVideoList">GetCourseVideoList</string>
+    <string name="learningbar_sdk_method_GetCourseDocList">GetCourseDocList</string>
+    <string name="learningbar_sdk_method_GetCourseDocPDFList">GetCourseDocPDFList</string>
+    <string name="learningbar_sdk_method_GetCourseNoticeList">GetCourseNoticeList</string>
+    <string name="learningbar_sdk_method_GetCourseNoticePDFList">GetCourseNoticePDFList</string>
+    <string name="learningbar_sdk_method_GetCourseExamTaskList">GetCourseExamTaskList</string>
+    <string name="learningbar_sdk_method_GetCourseExamTaskByID">GetCourseExamTask</string>
+    <string name="learningbar_sdk_method_SetCoursewareStudyStatus">SetCoursewareStudyStatus</string>
+    <string name="learningbar_sdk_method_SetCoursewareStudyPoint">SetCoursewareStudyPoint</string>
+    <string name="learningbar_sdk_method_GetCourseExamTaskItem">GetCourseExamTaskItem</string>
+    <string name="learningbar_sdk_method_SaveUnFinishExamTaskResult">SaveUnFinishExamTaskResult</string>
+    <string name="learningbar_sdk_method_SubmitObjectiveExamResult">SubmitObjectiveExamResult</string>
+    <string name="learningbar_sdk_method_SubmitUserFeedback">AddUserFeedback</string>
+    <string name="learningbar_sdk_method_GetOBVersionInfo">GetOBVersionInfo</string>
+    <string name="learningbar_sdk_http_useSSL">false</string>
+    <string name="learningbar_sdk_check_app_state">AppState/Ping</string>
+    <string name="learningbar_sdk_url_Course_Apprise">Course/Apprise</string>
+    <string name="learningbar_sdk_method_AddCourseClickTime">AddOBUserCourseClickTime</string>
+    <string name="learningbar_sdk_method_AddCourseTotalTime">AddOBUserCourseTotalTime</string>
+    <string name="learningbar_sdk_method_getThemeClass">getThemeClass</string>
+    <!--  string name="learningbar_sdk_method_getThemeList">getThemeList</string-->
+    <string name="learningbar_sdk_method_getThemeList">getRecommendThemeList</string>
+    <string name="learningbar_sdk_method_getThemeListCourse">getThemeListCourseTeacher</string>
+    <string name="learningbar_sdk_method_getThemeDetailByThemeID">getThemeDetailByThemeID</string>
+    <string name="learningbar_sdk_method_getSpeakListByThemeID">getSpeakListByThemeID</string>
+    <string name="learningbar_sdk_method_addAttentionOfTheme">addAttentionOfTheme</string>
+    <!-- <string name="learningbar_sdk_method_cancelAttentionOfTheme> -->
+    <string name="learningbar_sdk_method_cancelAttentionOfTheme">cancelAttentionOfTheme</string>
+    <string name="learningbar_sdk_method_addSpeakContent">addSpeakContent</string>
+    <string name="learningbar_sdk_method_getSpeakDetailBySpeakID">getSpeakDetailBySpeakID</string>
+    <string name="learningbar_sdk_method_getReviewListBySpeakID">getReviewListBySpeakID</string>
+    <string name="learningbar_sdk_method_deleteSpeakBySpeakID">deleteSpeakBySpeakID</string>
+    <string name="learningbar_sdk_method_addSupportSpeak">addSupportSpeak</string>
+    <string name="learningbar_sdk_method_addFavoriteSpeak">addFavoriteSpeak</string>
+    <string name="learningbar_sdk_method_deleteFavoriteSpeak">deleteFavoriteSpeak</string>
+    <string name="learningbar_sdk_method_addReviewOfSpeak">addReviewOfSpeak</string>
+    <string name="learningbar_sdk_method_addRevertOfReview">addRevertOfReview</string>
+    <string name="learningbar_sdk_method_getThemeAuthorDetailByThemeAuthorID">getThemeAuthorDetailByThemeAuthorID</string>
+    <string name="learningbar_sdk_method_getThemeListByAuthorID">getThemeListByAuthorID</string>
+    <string name="learningbar_sdk_method_getThemeListByUserID">getThemeListByUserID</string>
+    <string name="learningbar_sdk_method_getSpeakListByUserID">getSpeakListByUserID</string>
+    <string name="learningbar_sdk_method_getCommentListByUserID">getCommentListByUserID</string>
+    <string name="learningbar_sdk_method_getFavorListByUserID">getFavoriteListByUserID</string>
+    <string name="learningbar_sdk_method_getUserNoSpeakInfoByUserID">getUserNoSpeakInfoByUserID</string>
+    <string name="learningbar_sdk_method_editSpeakContent">editSpeakContent</string>
+    <string name="learningbar_sdk_method_editCommentContent">editCommentContent</string>
+    <string name="learningbar_sdk_method_getEducationNoticeList">getEducationNoticeList</string>
+    <string name="learningbar_sdk_method_getEducationNoticeItemDetail">readedEducationNoticeByUserID</string>
+    <string name="learningbar_sdk_method_getFriendListBySameSpecicalty">getFriendListBySameSpecialty</string>
+    <string name="learningbar_sdk_method_addUserActionCount">AddUserActionCount</string>
+
+    <!-- 直接调用学吧后台服务器 -->
+    <!-- 测试平台接口地址  
+    <string name="learningbar_sdk_http_url">http://10.96.142.93:17000</string> -->
+    <!-- 测试平台Mqtt地址 
+    <string name="learningbar_mqtt_url">tcp://10.100.133.219:1883</string>  -->
+
+    <!-- 正式平台域名地址  该域名已挂-->
+    <string name="learningbar_sdk_http_url">http://basic.open.com.cn</string>
+    <!-- 正式平台Mqtt地址  该域名已挂-->
+    <string name="learningbar_mqtt_url">tcp://115.182.41.159:1883</string>
+    
+    <!-- 正式平台Mqtt地址 
+    <string name="learningbar_mqtt_url">tcp://115.182.41.159:1883</string> -->
+
+
+
+    <string name="learningbar_sdk_url_getObsLogin">/api/login/appUserApilogin.json</string>
+    <string name="msg_url_getNewMessage">/facade/message/findUnreadMessage.json</string>
+    <string name="msg_url_sendTextMessage">/api/message/sendMessage.json</string>
+    <string name="msg_url_sendImageFileMessage">/api/message/sendImageFile.json</string>
+    <string name="msg_url_sendSoundFileMessage">/api/message/sendSoundFile.json</string>
+   
+    <string name="learningbar_sdk_url_getThemeDetailByThemeID">/learnbar/topic/getAboutUser.json</string>
+    <string name="learningbar_sdk_url_getSpeakListByThemeID">/learnbar/speak/findAboutUser.json</string>
+    <string name="learningbar_sdk_url_getSpeakListByThemeID_UserId">/learnbar/speak/findByUser.json</string>
+    <string name="learningbar_sdk_url_getThemeListByUserID">/learnbar/topic/findTopicByFollow.json</string>
+    <string name="learningbar_sdk_url_addAttentionOfTheme">/learnbar/topic/follow.json</string>
+    <string name="learningbar_sdk_url_cancelAttentionOfTheme">/learnbar/topic/unfollow.json</string>
+    <string name="learningbar_sdk_url_addSpeakContent">/learnbar/speak/add.json</string>
+    <string name="learningbar_sdk_url_getSpeakDetailBySpeakID">/learnbar/speak/getAboutUser.json</string>
+    <string name="learningbar_sdk_url_getReviewListBySpeakID">/learnbar/comment/findAboutUser.json</string>
+    <string name="learningbar_sdk_url_deleteSpeakBySpeakID">/learnbar/speak/deleteById.json</string>
+    <string name="learningbar_sdk_url_deleteReviewByReviewID">/learnbar/comment/deleteById.json</string>
+    <string name="learningbar_sdk_url_addSupportSpeak">/learnbar/speak/like.json</string>
+    <string name="learningbar_sdk_url_addFavoriteSpeak">/learnbar/speak/collect.json</string>
+    <string name="learningbar_sdk_url_deleteFavoriteSpeak">/learnbar/speak/uncollect.json</string>
+    <string name="learningbar_sdk_url_addReviewOfSpeak">/learnbar/comment/add.json</string>
+    <string name="learningbar_sdk_url_addRevertOfReview">/learnbar/comment/add.json</string>
+    <string name="learningbar_sdk_url_getThemeAuthorDetailByThemeAuthorID">/learnbar/user/getTopicAuthorDetail.json</string>
+    <string name="learningbar_sdk_url_getThemeListByAuthorID">/learnbar/topic/find.json</string>
+    <string name="learningbar_sdk_url_getSpeakListByUserID">/learnbar/speak/find.json</string>
+    <string name="learningbar_sdk_url_getCommentListByUserID">/learnbar/comment/findByUser.json</string>
+    <string name="learningbar_sdk_url_getFavorListByUserID">/learnbar/speak/findLikedByUser.json</string>
+    <string name="learningbar_sdk_url_getUserNoSpeakInfoByUserID">/learnbar/penalty/getPenaltyByUser.json</string>
+    <string name="learningbar_sdk_url_editSpeakContent">/learnbar/speak/update.json</string>
+    <string name="learningbar_sdk_url_editCommentContent">/learnbar/comment/update.json</string>
+    <string name="learningbar_sdk_url_getHomePageInfo">/learnbar/user/getHomepageInfo.json</string>
+    <string name="learningbar_sdk_url_getPersonalDetail">/learnbar/user/getPersonalDetail.json</string>
+    <string name="learningbar_sdk_url_savePersonalDetail">/learnbar/user/update.json</string>
+    <string name="learningbar_sdk_url_updatePersonalPhoto">/learnbar/user/uploadUserIcon.json</string>
+    <string name="learningbar_sdk_url_getMyFavoriteSpeakListByUserId">/learnbar/collect/findFavoriteList.json</string>
+    <string name="learningbar_sdk_url_getEducationNoticeList">getEducationNoticeList</string>
+    <string name="learningbar_sdk_url_getEducationNoticeItemDetail">readedEducationNoticeByUserID</string>
+    <string name="learningbar_sdk_url_getFriendListByUserId">/learnbar/user/getFriends.json</string>
+    <string name="learningbar_sdk_url_getFriendListByName">/learnbar/user/findFriendsByName.json</string>
+    <string name="learningbar_sdk_url_getFriendListBySameSpecicalty">getFriendListBySameSpecialty</string>
+    <string name="learningbar_sdk_url_getFriendDetailByUserId">/learnbar/user/getFriendDetail.json</string>
+    <string name="learningbar_sdk_url_addFriendRequestInfo">/learnbar/user/applyFriend.json</string>
+    <string name="learningbar_sdk_url_deleteFriendRequestInfo">/learnbar/user/deleteFriend.json</string>
+    <string name="learningbar_sdk_url_setFriendRelation">/learnbar/user/setFriendRelation.json</string>
+    <string name="learningbar_sdk_url_addPersonalUserScore">/learnbar/user/addScore.json</string>
+    <string name="learningbar_sdk_url_addUserVisitRecord">/learnbar/userLog/add.json</string>
+    <string name="learningbar_sdk_url_getUserScoreList">/learnbar/user/getScoreItems.json</string>
+    <string name="learningbar_sdk_url_editUserName">/learnbar/user/updateName.json</string>
+    <string name="learningbar_sdk_url_editUserSex">/learnbar/user/updateGender.json</string>
+    <string name="learningbar_sdk_url_editUserAddress">/learnbar/user/updateAddress.json</string>
+    <string name="learningbar_sdk_url_editUserEmail">/learnbar/user/updateMail.json</string>
+    <string name="learningbar_sdk_url_editUserPhoneNumber">/learnbar/user/updatePhone.json</string>
+    <string name="learningbar_sdk_url_editUserIntroduce">/learnbar/user/updateIntro.json</string>
+    <string name="learningbar_sdk_method_getUserBlockInfo">/learnbar/message/find.json</string>
+    <string name="learningbar_sdk_url_pubTheme">/facade/topic/editTopic.json</string>
+    <string name="url_get_theme_category_list">/learnbar/category/findAll.json</string>
+    <string name="url_get_theme_list">/learnbar/topic/find.json</string>
+
+    <!-- <string name="PubCourseService">http://10.100.133.92/OpenCourse</string> -->
+
+    <!--115。182。41。133 died-->
+    <string name="PubCourseService">http://115.182.41.133/OpenCourse</string>
+
+
+    <string name="public_course_login">/mobile/login</string>
+    <string name="public_course_logout">/mobile/logout</string>
+    <string name="getHomeCourses">/mobile/getHomeCourses</string>
+    <string name="searchCourses">/mobile/searchCourses</string>
+    <string name="getHotCourses">/mobile/getHotCourses</string>
+    <string name="showCourses">/mobile/showCourse</string>
+    <string name="addCommentForCourse">/mobile/addComment</string>
+    <string name="getComments">/mobile/getComments</string>
+    <string name="rankCourse">/mobile/ratingCourse</string>
+    <string name="addCoursePlayingCount">/mobile/addCoursePlayingCount</string>
+    <string name="addCourseViewCount">/mobile/addCourseViewCount</string>
+    <string name="getCollegesAndSubjects">/mobile/getCollegesAndSubjects</string>
+</resources>

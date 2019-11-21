@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appname">SkyClass</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_page4">Page4</string>
+          <string name="startButton">开始</string>
+    <string name="pauseButton">暂停</string>
+    <string name="resetButton">重置</string>
+    <string name="stopButton">停止</string>
+     <string name="path">下载路径</string>
+	<string name="downloadbutton">下载</string>
+	<string name="sdcarderror">SDCard不存在或者写保护</string>
+	<string name="success">下载完成</string>
+    <string name="error">下载失败</string>
+    <string name="init_decoders">正在进行第一次解压解码包...</string>
+    <string name="video_layout_loading">正在缓冲...</string>
+        <string name="vitamio_theme_app_name">VPlayer codec</string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+		this device.</string>
+    <string name="VideoView_error_text_unknown">对不起,这个视频不能播放。</string>
+    <string name="VideoView_error_button">OK</string>
+        <string name="soft_update_no">当前已是最新版本</string>
+    
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+     <string name="soft_update_title">检测到新版本</string>
+     <string name="soft_update_info">是否下载更新</string>
+     <string name="soft_update_updatebtn">下载</string>
+     <string name="soft_update_later">稍后更新</string>
+     <string name="soft_updating">下载中</string>
+     <string name="soft_update_cancel">取消更新</string>
+    <string name="info_times_hour">Hour</string>
+    <string name="info_times_minute">Minute</string>
+    <string name="down_from_market">Download from Google Play</string>
+    <string name="down_from_website">Download from website</string>
+    <string name="exit">Exit</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel </string>
+    <string name="donwload">Download</string>
+    <string-array name="activities_array">
+        <item>办公室</item>
+        <item>图书馆</item>
+        <item>家里</item>
+        <item>室外</item>
+        <item>公交</item>
+        <item>汽车</item>
+        <item>地铁</item>
+        <item>飞机</item>
+        <item>火车</item>
+        <item>其他</item>       
+    </string-array>
+    <string name="app_name">Intelligent_room</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_livecourse">当前没有正在直播的课程！</string>
+    <string name="intelligent_room">智能教室直播系统</string>
+    <string name="zhibo">正在直播</string>
+    <string name="gozhibo">马上直播</string>
+    <string name="studentnumber">在线人数</string>
+    <string name="select">选择学科专业</string>
+    <string name="major1">全部</string>
+    <string name="major2">计算机科学与技术</string>
+    <string name="major3">电子科学与技术</string>
+    <string name="major4">软件工程</string>
+    <string name="loading">正在加载中，请稍候。。。</string>
+    <string name="noonline">现在没有正在直播的课程</string>
+    <string name="nopreparingcourse">今天已经没有准备直播的课程</string>
+    <string name="courseName">直播课程：</string>
+    <string name="collegeName">开课学院：</string>
+    <string name="className">教室：</string>
+    <string name="teacherName">教师姓名：</string>
+    <string name="startTime">开始时间：</string>
+    <string name="endTime">结束时间：</string>
+   
+    <string name="start">开 始</string>
+    <string name="queding">确 定</string>
+    <string name="quit">退出</string>
+    <string name="quit1">确定要退出登陆吗？</string>
+    <string name="refresh">刷新</string>
+    <string name="courseTips">请选择播放的视频：</string>
+    <string name="screen">屏幕视频</string>
+    <string name="classroom">教室视频</string>
+	<string-array name="list_item">
+	    <item name="all">所有课程</item>
+	    <item name="dianxin">电信学院</item>
+	    <item name="ruanjain">软件学院</item>
+	    <item name="renwen">人文学院</item>
+	    <item name="nengdong">材料学院</item>
+	</string-array>
+    <string name="ob_login_success">登录成功</string>
+    <string name="ob_login_error">登录错误</string>
+    <string name="ob_login_errormsg">用户名和密码不能为空！</string>
+    <string name="ob_login_failure">登录失败</string>
+    <string name="ob_login_failuremsg">用户名或密码错误！</string>
+    <string name="ob_loading_tips">正在加载...</string>
+    <string name="ob_loading_version_checking">正在检测版本...</string>
+    <string name="ob_login_string_tips">登录中...</string>
+    <string name="ob_sending_msg">正在发送...</string>
+    <string name="ob_send_success">发送成功</string>
+    <string name="ob_send_error">发送失败</string>
+    <string name="ob_login_other">注意：您的账号已经在其他设备上登录！</string>
+    <!-- Tag: Login Text end -->
+
+    <!-- Tag: regist Text start -->
+
+    <string name="ob_regist_uap">请填写用户名或密码</string>
+    <string name="ob_regist_tpn">两次输入密码不同</string>
+    <string name="ob_regist_umr">用户名必须为正确邮箱！</string>
+    <string name="ob_regist_pms">密码必须为6-16位数字和字母</string>
+    <string name="ob_regist_ai">请同意学吧网络协议！</string>
+  
+
+    <!-- Tag: regist Text end -->
+
+    <!-- Tag: OBLThemeMySpeakHandle Text start -->
+
+    <string name="ob_speak_uap">发言和转发</string>
+    <string name="ob_speak_tpn">评论和回复</string>
+    <string name="ob_speak_umr">赞我的</string>
+ 
+  
+
+    <!-- Tag: OBLThemeMySpeakHandle Text end -->
+
+
+    <!-- Tag:Menu Text start -->
+
+    <string name="ob_menu_change_user">切换用户</string>
+    <string name="ob_menu_feedback">意见反馈</string>
+    <string name="ob_menu_help">新手帮助</string>
+    <string name="ob_menu_about">关于</string>
+    <string name="ob_menu_exit">退出</string>
+    <string name="ob_menu_check_version">版本检测</string>
+
+    <!-- Tag:Menu Text end -->
+
+
+    <!-- Tag: Navigation Text Start -->
+    <!-- Modified by Gaox 2013-3-15 -->
+    <string name="ob_navigation_regist">注册</string>
+    <string name="ob_navigation_public_course">首页</string>
+    <string name="ob_navigation_course">课程</string>
+    <string name="ob_navigation_group">群组</string>
+    <string name="ob_navigation_friends">个人</string>
+    <string name="ob_navigation_more">更多</string>
+    <string name="ob_navigation_more_title">更多应用</string>
+    <string name="ob_navigation_notice">通知</string><!-- 2015-3-23 -->
+
+    <!-- Tag: Navigation Text end -->
+
+
+    <!-- Tag: Course String Start -->
+    <string name="ob_course_string_notice111">公告 %1$s</string>
+    <string name="ob_course_title">课程详情</string>
+    <string name="ob_course_no_course">您所有的课程已学完。</string>
+    <string name="ob_course_no_course_rg">奥鹏学员请使用学历账号登陆；\n\n如果您不是奥鹏学员，请关注奥鹏教育主页了解报名详情：\n http://www.open.com.cn/。</string>
+    <string name="ob_course_no_course_rg_by">本模块是您当下需要学习的在修课程，目前您没有在修课程哦。</string>
+    <string name="ob_course_notice">课程公告</string>
+    <string name="ob_course_navigation_video">视频</string>
+    <string name="ob_course_navigation_doc">文档</string>
+    <string name="ob_course_navigation_test">评测</string>
+    <string name="ob_course_navigation_notice">公告</string>
+    <string name="ob_course_string_video">视频 \n %1$d</string>
+    <string name="ob_course_string_doc">文档 %1$d</string>
+    <string name="ob_course_string_homework">评测 %1$d</string>
+    <string name="ob_course_string_notice">公告 %1$d</string>
+    <string name="ob_course_login_message">登录成功</string>
+    <string name="ob_course_notice_adjunct">附件</string>
+    
+    <string name="ob_course_detail_tab">详情</string>
+    <string name="ob_course_comment_tab">评论</string>
+    <string name="ob_course_adapter_tab">选集</string>
+    
+    <string name="ob_course_fragment_course_rating">评分：</string>
+    <string name="ob_course_fragment_course_subject">学科：</string>
+    <string name="ob_course_fragment_course_major">专业：</string>
+    <string name="ob_course_fragment_course_college">院校：</string>
+    <string name="ob_course_fragment_course_size">大小：</string>
+    <string name="ob_course_fragment_course_comment_number">评论数：</string>
+    <string name="ob_course_fragment_course_submit_comment">评论</string>
+    <string name="ob_course_fragment_course_total_play_number">总播放数：</string>
+    <string name="ob_course_fragment_course_submit_rating">提交</string>
+    <string name="ob_course_fragment_course_submit_rating_success">评论成功</string>
+    
+    <string name="ob_course_fragment_comment_having">共有</string>
+    <string name="ob_course_fragment_comment_number">条记录</string>
+    <string name="ob_course_fragment_comment_prefix">//@</string>
+    
+    <string name="ob_course_fragment_comment_score">分</string>
+    
+    <string name="ob_homework_string_tip1"><b>亲爱的学员，你好：</b> \n        当前作业已经提交，且教师正在批改作业中的主观题。
+
+    待批改完成后，您才能够再次答题。</string>
+    <string name="ob_homework_string_tatalPoint">100</string>
+    <string name="ob_homework_string_BackDirectory">课程目录</string>
+    <string name="ob_homework_string_continueAnswer">继续答题</string>
+    <string name="ob_homework_string_continueAnswerTip">欢迎回来,请继续答题。</string>
+    <string name="ob_homework_string_total">试卷总分</string>
+    <string name="ob_homework_string_actual_point">试卷得分</string>
+    <string name="ob_homework_string_max">最高得分</string>
+    <string name="ob_homework_string_count">答题次数</string>
+    <string name="ob_homework_string_startAnswer">开始答题</string>
+    <string name="ob_homework_string_point">%1$1s 分</string>
+    <string name="ob_homework_string_AnswerCount">&lt;font
+		color="#0099cb">&lt;b>%1$d&lt;/b>&lt;/font> / %2$d</string>
+    <string name="ob_doc_string_author">发布人: %1$s </string>
+    <string name="ob_homework_string_questionPoint">%1$s &lt;font
+		color="#0099cb">&lt;b>%2$s&lt;/b>&lt;/font> 分 </string>
+    <string name="ob_homework_string_question_hint">请写出%1$s的答案</string>
+    <string name="ob_homework_string_pageNumber">&lt;b>&lt;font
+		color="#0099cb">%1$d&lt;/font> / %2$d&lt;/b></string>
+    <string name="ob_homework_string_Line">&lt;u> &#160;&#160;&#160;&#160;&#160;(%1$d)&#160;&#160;&#160;&#160;&#160; &lt;/u></string>
+    <string name="ob_homework_string_Flag">( %1$d )</string>
+    <string name="ob_homework_string_question_point">满分 : %1$s 分</string>
+    <string name="ob_homework_string_back_course">返回课程</string>
+    <string name="ob_homework_string_answer_continue">继续答题</string>
+    <string name="ob_homework_string_reanswer">重新答题</string>
+    <string name="ob_homework_string_saveAndExit">保存并退出</string>
+    <string name="ob_homework_string_result">阅卷结果</string>
+    <string name="ob_homework_string_result_title">作业结果</string>
+    <string name="ob_homework_string_Homework_name">作业名称</string>
+    <string name="ob_homework_string_correct_date">评阅时间</string>
+    <string name="ob_homework_string_correct_tips1">作业已提交.</string>
+    <string name="ob_homework_string_correct_tips2">&#160;&#160;&#160;接下来，您的任课老师会批改作业中的主观题，请您耐心等待，待批改完成后系统会推送消息给您！</string>
+    <string name="ob_homework_string_submit">交&#160;&#160;&#160;&#160;卷</string>
+    <string name="ob_homework_string_failed">获取试卷数据失败.</string>
+    <string name="ob_doc_pictrue_saved_success">图片保存成功,请在相册查看。</string>
+    <string name="ob_doc_pictrue_saved_failed">图片保存失败.</string>
+    <string name="ob_doc_pictrue_download_failed">下载图片失败,请检查网络或是服务器文件不存在</string>
+    <string name="ob_doc_unsupport_type_tips">暂时不支持此文件类型查看,请下载后使用相关程序查看</string>
+    <string name="ob_doc_unsupport_type_tips2">暂时不支持此文件类型查看,请在登陆PC端查看</string>
+    <string name="ob_video_nodata_tip">本课程没有终端适配的视频，请先到PC端学习吧~</string>
+    <string name="ob_doc_unsupport_tip3">(不支持类型文档)</string>
+    <string name="ob_course_notice_more">显示更多</string>
+    <!-- Tag: Course String end -->
+
+
+    <!-- Tag:More String start -->
+    <string name="ob_more_string_download_manager">下载管理</string>
+    <string name="ob_more_string_educationNotice">教务公告</string>
+    <string name="ob_more_string_mineNotice">学吧通知</string>
+    <string name="ob_more_string_MyFavorite">我的收藏</string>
+    <string name="ob_more_string_feedback">意见反馈</string>
+     <string name="ob_more_string_NsNotice">禁言通知</string>
+    <string name="ob_more_string_about">关于学吧</string>
+    <string name="ob_more_string_setting">消息提醒设置</string>
+    <string name="ob_more_string_course_detail">课程详情</string>
+    <string name="ob_more_string_course_download">课程下载</string>
+    <string name="setting_is_get">接收新消息通知</string>
+    <string name="setting_voice">声音</string>
+    <string name="setting_va">震动</string>
+    <string name="ob_more_string_about_txt01">for Android v2.0.1</string>
+    <string name="ob_more_string_about_txt02">Copyright@2001-2014</string>
+    <string name="ob_more_string_about_txt03">奥鹏教育版权所有</string>
+    <string name="ob_more_string_copyright">版权信息</string>
+    <string name="ob_more_string_download_copyright_txt01">\n<b>版权信息：</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用程序中，所有课程的“视频”、“文档”、“评测”均属于北京奥鹏远程教育中心有限公司版权所有；未经授权，禁止转载。</string>
+    <string name="ob_more_string_proctrol">用户协议</string>
+    <string name="ob_more_string_download_proctrol_txt01">\n\n<b>用户使用协议：</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本协议详细表述您在学吧Android应用程序中使用我们的服务所须遵守的条款和条件。如您有任何疑问，请及时与我们联系。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您注册成为学吧用户（以下简称：本应用程序用户）前，必须仔细阅读本用户使用协议和隐私声明，一旦您注册成为了本应用程序用户即表示您已经阅读、同 意并接受本用户使用协议和隐私声明中所含的所有条款和条件。如果我们对本用户使用协议和隐私声明进行了任何变更，我们会在学吧（以下简称：本应用程序）页 面上发布有关变更事项的通知，所有协议内容自发布之日起自动生效。如您有任何疑问，请先联系客服，必要时申请注销您的用户名。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>一、本应用程序服务条款的确认和接纳</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用程序各项服务所涉及的所有权和运作权等一切权利和权益归学吧所有。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>二、用户注册</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. 1. 用户资格\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您必须是依法能够签订本协议的自然人，且具有完全的民事权利能力和行为能力。请您仔细阅读本用户使用协议后注册，并妥善保管好您的学吧帐户（以下简称：本应用程序帐户），不得向其他方转让或出售。另外，本应用程序保留根据意愿冻结、注销您拥有的本应用程序帐户。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. 2. 资料填写\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;为确保交易的正常进行， 您必须按本应用程序要求提供真实、有效的个人资料、信息。如个人资料、信息有变动，请即刻更改，以便我们进行正常交易操作。 您同意接收来自本应用程序发出的邮件、信息。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. 3. 用户的帐号、密码和安全性\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您一旦注册成功成为用户，将得到一个密码和帐号（即用户名）。如果您不保管好自己的帐号和密码安全，将自负全部责任。另外，您应对其帐户中的所有活动和 事件负全责。您可随时根据指示改变您的密码，也可以结束旧的帐户重开一个新帐户。您同意若发现任何非法使用用户帐号或安全漏洞的情况，请立即通知本应用程序。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>三、隐私政策</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用程序设有适用于所有用户并纳入本用户使用协议的隐私声明。您应当在注册时阅读并接受隐私声明以使用本应用程序，且您在作为本应用程序用户期间将继续受其规定（及本应用程序对隐私声明作出的任何修订）的约束。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. 1. 个人数据资料。包括个人识别资料：如姓名、性别、年龄、出生日期、身份证号码(或护照号码)、电话、通信地址、住址、电子邮件地址等情况；个人背景：职 业、教育程度、收入状况、婚姻、家庭状况。在未经您同意及确认之前，本应用程序承诺不会将您的资料用于其它目的。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. 2. 使用非个人信息。本应用程序将通过您的IP地址来收集非个人化的信息，包括您的浏览器性质、操作系统种类、给您提供接入服务的ISP的域名等，以优化在您计算机屏幕上显示的页面。通过收集上述信息，我们亦进行客流量统计，从而改进应用程序的管理和服务。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. 3. 个人数据安全。本应用程序采用安全性的服务器使用控制设备保护您的个人数据。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. 4. 个人数据披露和限制利用。当国家机构依照法定程序要求本应用程序披露您的个人资料时，本应用程序将根据执法单位的要求或为公共安全目的提供个人资料。在此情况下披 露的任何内容，本应用程序不承担任何责任。本应用程序在符合下列任一条件时，可以对您的个人资料进行必要范围以外利用：已取得您的书面同意；为免除您在生命、身体 或财产方面之急迫危险；为防止他人权益之重大危害；为增进公共利益，且无害于您的重大利益。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>四、课程学习及留言管理</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您在本应用程序进行物品购买和留言时必须遵守以下条款\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. 1. 您在本应用程序的一切操作应遵守所有适用的中国法律、法规、条例和地方性法律、法规等一切规范性文件的要求。同时您必须确保遵守本用户使用协议和隐私声明以及纳入上述文件的所有其它条款、规则等一切相关内容。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. 2. 拒绝提供担保:您明确同意信息服务的使用由您个人承担风险。 本应用程序不担保服务不会受中断，对服务的及时性，安全性，出错发生都不作担保，但会在能力范围内，避免出错。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. 3. 您不能在本应用程序上使用谩骂，侮辱，诽谤等不雅言语以及其它攻击其他用户和本应用程序的言语。本应用程序有权删除此类言论及其它本应用程序认为不合适的言论。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>五、应用程序安全</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您同意，未经本应用程序明示书面准许，您不会为了任何目的使用任何机器人、蜘蛛软件、刷屏软件或其他自动方式进入本应用程序。此外，您同意绝不进行以下操作：\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. 1. 进行任何对本应用程序造成或可能造成（按本应用程序自行酌情确定）不合理或不合比例的重大负荷的行为；\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. 2. 未经本应用程序事先明示书面准许，对本应用程序的任何内容（除您的个人信息以外）制作拷贝、进行复制、修改、制作衍生作品、分发或公开展示等的侵权行为；\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. 3. 干扰或试图干扰本应用程序的正常工作或活动；\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. 4. 在本应用程序中使用可能视为被禁止或可能被禁止的任何内容；\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. 5. 对本应用程序使用不良数据。包含可能破坏、改变、删除、不利影响、秘密截取、未经授权而接触，或占用任何系统、数据、个人资料的病毒、间谍软件、其他电脑程序等。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>六、知识产权声明</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用程序所提供的网络服务的相关著作权、专利权、商标、商业隐私及其它任何权利和权益，均属本应用程序所有。非经本应用程序同意，任何个人或单位均不得擅自下载、 复制、传输、修改、编辑制作等操作，否则将承担所有法律责任并赔偿本应用程序的全部损失。本应用程序拥有本应用程序服务器中的任何数据信息的绝对所有权。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>七、免责声明</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用程序有义务在技术上确保应用程序的正常运行，尽力避免服务中断或将中断时间限制在最短时间内，保证您网上交易活动的顺利进行。但如因不可抗力或其他本应用程序 无法控制的因素使应用程序崩溃或无法正常使用导致网上交易无法完成或丢失有关的信息、记录等，本应用程序不承担责任；您向本应用程序提供错误、不完整、不实信息等造成 不能正常使用本应用程序服务或遭受任何其他损失，概与本应用程序无关。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>八、服务终止</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8. 1. 您或本应用程序可随时根据实际情况中断一项或多项服务。本应用程序不需对任何个人或第三方负责而随时中断服务。您若反对任何服务条款的建议或对后来的条款修改有异议，或对本应用程序服务不满，您可以行使如下权利：\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8.1.1 停止使用本应用程序服务\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8.1.2. 通知本应用程序停止对您的服务。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;结束会员服务后，您使用本应用程序服务的权利立刻中止，即，您与本应用程序之间不存在任何法定的或约定的权利义务关系，本应用程序不再传送任何未处理的信息或未完成的服务给您。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8. 2. 您如果存在以下任一行为将被取消用户资格：\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 违反注册条款。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 提供虚假、失效的个人资料。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 损害本应用程序利益的行为。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 违反中国的法律、法规、违反互联网相关规定的行为。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 将用户帐号用于出售、拍卖等进行交易的行为。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 出借、转让 用户帐号给第三方的行为。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 通过盗取密码、诈骗等不正当手段获得用户帐号的行为。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* 在群组发言留言，好友私信中多次或大量使用谩骂，侮辱，诽谤等不雅言语的行为。\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>九、其它</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本协议的订立、执行、解释和争议的解决，均应适用中国法律。您与本应用程序如在本协议履行中发生争执，应尽力协商解决，协商不成的，任何一方可将争议提交北 京仲裁委员会按照该会届时有效的仲裁规则进行仲裁。本协议的各项规定是可分割的，如本协议任一规定被裁定为无效或不可执行，该规定可被删除而其余条款仍具 有效力应予以执行。您同意，在本应用程序发生并购后，本协议和所有纳入的协议可由本应用程序自行酌情决定向第三方自动转让。标题仅为参考之用，在任何方面均不界 定、限制、解释或描述该条的范围或限度。\n\n</string>
+    <string name="ob_more_string_declare">特别声明</string>
+    <string name="ob_more_string_download_declare_txt01">\n<b>特别声明：</b>\n\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用程序内的一切“视频、文档、评测、公告、群组发言等”，一切最终解释权归北京奥鹏远程教育中心有限公司所有。</string>
+    <string name="ob_more_string_feedbackTip">欢迎您提出宝贵的意见和建议，您的每一句话都会提高我们软件的质量。</string>
+    <string name="ob_more_string_feedbackHint">请输入您的反馈意见（200字以内）</string>
+    <string name="ob_more_string_feedbackEmailHit">您的邮箱（选填）</string>
+    <string name="ob_more_string_feedbackSubmit">提   交</string>
+    <string name="ob_more_string_feedbackSubmit_fail">提交失败</string>
+    <string name="ob_more_string_feedbackSubmit_success">提交成功，谢谢</string>
+    <string name="ob_more_string_feedback_checklength_tip">内容超过200字，请修改</string>
+    <string name="ob_more_string_feedback_checknull_tip">内容不能为空</string>
+    <string name="ob_more_string_userBlock_title">用户禁言通知</string>
+    <string name="ob_more_string_userBlock_content">&lt;b>&lt;font
+		color="#0099cb">%1$s&lt;/font>&lt;/b> 你好,您的言论因为违反 [ &lt;b>&lt;font
+		color="#0099cb">%2$s&lt;/font>&lt;/b> ] 条款，在[&lt;b>&lt;font
+		color="#0099cb"> %3$s - %4$s&lt;/font>&lt;/b>] 期间被禁言处理。有问题请联系客服!!</string>
+    <!-- tag :More end -->
+    <!-- szk -->
+    <!-- Modified by Gaox 2013-3-15 -->
+    <string name="ob_login_acty_btn_login">登录</string>
+    <string name="ob_login_acty_btn_exit">退出应用</string>
+    <string name="ob_login_acty_tview_hint">记住密码</string>
+    <string name="ob_login_acty_eview_account">学历帐号/邮箱</string>
+    <string name="ob_login_acty_eview_password">密码</string>
+    <string name="ob_login_acty_name_empty">用户名和密码不能为空.</string>
+    <string name="ob_login_acty_name_error">用户名或密码错误！</string>
+    <string name="ob_login_acty_name_save">用户信息为空</string>
+    <string name="ob_download_acty_title_name">下载管理</string>
+    <string name="ob_download_fragment_success">下载完成</string>
+    <string name="ob_download_value_unit">MB</string>
+    <string name="ob_download_value_unit1">KB</string>
+    <string name="ob_file_download_wait">等待中</string>
+    <string name="ob_file_download_pause">已暂停</string>
+    <string name="ob_file_download_progress">已完成</string>
+    <string name="ob_file_download_taging">%</string>
+    <string name="ob_download_resource_exist">该资源已经下载，请勿重复</string>
+    <string name="ob_download_success_message">全部开始下载</string>
+    <string name="ob_download_current_message">下载进行中，请不要断开网络或切换到其他程序...</string>
+    <string name="ob_device_no_sdcard">sd卡不存在或sd卡状态有问题</string>
+    <string name="ob_sdcard_no_size">sd卡存储空间不足</string>
+    <string name="ob_downloading_errow_net">网络出错，下载不成功</string>
+    <string name="ob_download_net_change">提示</string>
+    <string name="ob_download_net_context">你当前处于非Wifi网络环境，可能会产生流量费用，是否继续下载？</string>
+    <string name="ob_download_file_delete">是否删除已下载的课程文件</string>
+    <string name="ob_download_cancel_ok">是</string>
+    <string name="ob_download_cancel_cancel">否</string>
+    <string name="ob_download_go_market">课程首页</string>
+    <string name="ob_download_market_message">没有正在下载的任务，去课程中溜达一下吧！</string>
+    <string name="ob_download_video_downloading">不能学习正在下载的资源课件！</string>
+    <string name="ob_download_courseware_failed">下载文档失败,请检查网络或是服务器文件不存在</string>
+    <string name="ob_download_sdcard_nospace">存储空间不足</string>
+    <string name="ob_timer_format_full" translatable="false"></string>
+    <string name="ob_file_download_showtime">正在计算、、、</string>
+    <string name="ob_file_download_rate">KB/S</string>
+    <string name="ob_file_success_delete">删除</string>
+    <string name="ob_file_download_success">占用磁盘空间</string>
+    <string name="ob_videoView_error_text">对不起，该视频无法播放</string>
+    <string name="ob_videoView_error_title">提示</string>
+    <string name="ob_videoView_error_unknown">目前您的网络状况不好，请稍后再试。</string>
+    <string name="downloading_not_pdf_view">没有网络资源暂时不能使用！</string>
+    <string name="ob_downloading_unsuccess">当前网络不太给力，请检查网络或是稍后再试</string>
+    <string name="ob_download_file_drop">gif文件不存在</string>
+    <string name="net_conncet_error">Network is unreachable</string>
+    <string name="ob_course_string_unsupport_file">该格式暂不支持</string>
+    <!-- szk -->
+
+
+    <!-- Tag: Friend start -->
+    <string name="ob_string_friend_visit_history">最近访问过我的朋友：</string>
+    <string name="ob_string_friend_user_teacher">该教师发表的主题</string>
+    <string name="ob_string_friend_change_bg">点击更换背景</string>
+    <string name="ob_string_friend_edit_persionalInfo">编辑个人信息</string>
+    <string name="ob_string_friend_change_bg_title">更换背景</string>
+    <string name="ob_string_friend_private_letter">私信</string>
+    <string name="ob_string_friend_private_letter_msg">消息</string>
+    <string name="ob_string_friend_friend">好友</string>
+    <string name="ob_string_friend_myfriend">我的好友</string>
+    <string name="ob_string_friend_count">(%1$d)</string>
+    <string name="ob_string_friend_notice">公告</string>
+    <string name="ob_string_friend_educational_notice">教务公告</string>
+    <string name="ob_string_friend_notice_detail">公告详情</string>
+    <string name="ob_string_friend_favorite">收藏</string>
+    <string name="ob_string_friend_favorite_count">收藏(%1$d)</string>
+    <string name="ob_string_friend_find_friend">找朋友</string>
+    <string name="ob_string_friend_find_tip">输入朋友昵称</string>
+    <string name="ob_string_friend_search">搜索</string>
+    <string name="ob_string_friend_find_subjectFriend">同专业的朋友</string>
+    <string name="ob_string_friend_find_buttonText">换一拨人看看</string>
+    <string name="ob_string_friend_item_tip">请选择朋友类别</string>
+    <string name="ob_string_friend_item_all">全部</string>
+    <string name="ob_string_friend_item_teacher">老师</string>
+    <string name="ob_string_friend_item_student">学生</string>
+    <string name="ob_string_friend_item_counta">共找到</string>
+    <string name="ob_string_friend_item_countb">条搜索结果</string>
+    <string name="ob_string_friend_home_page">个人主页</string>
+    <string name="ob_string_friend_send_validate_info">发送验证信息</string>
+    <string name="ob_string_friend_send_validate_info_tip">和对方打个招呼吧</string>
+    <string name="ob_string_friend_send_word_count_a">剩余</string>
+    <string name="ob_string_friend_send_word_count_b">字</string>
+    <string name="ob_string_friend_send_button_text">发送</string>
+    <string name="ob_string_friend_attention_theme">他关注的主题</string>
+    <string name="ob_string_friend_attention_theme_button">关注主题</string>
+    <string name="ob_string_friend_his_friend">他的好友</string>
+    <string name="ob_string_friend_his_Attention_Theme">他关注的主题</string>
+    <string name="ob_string_friend_preview_reset">重选</string>
+    <string name="ob_string_friend_preview_use">使用</string>
+    <string name="ob_string_friend_preview_title">头像选取</string>
+    <string name="str_editing_personal_info_title">编辑个人资料</string>
+    <string name="str_editing_personal_info_pic">编辑头像 :  </string>
+    <string name="str_editing_personal_info_nickname">&#160;&#160;&#160;&#160;昵称 :  </string>
+    <string name="str_editing_personal_info_gender">&#160;&#160;&#160;&#160;性别 :  </string>
+    <string name="str_editing_personal_info_location">所在地:  </string>
+    <string name="str_editing_personal_info_email">&#160;&#160;&#160;&#160;邮箱 :  </string>
+    <string name="str_editing_personal_info_phone">手机号 :  </string>
+    <string name="str_editing_personal_info_intro">&#160;&#160;&#160;&#160;简介 :  </string>
+    <string name="str_editing_personal_textCount_Tip">剩余 &lt;font
+		color="#0099cb">&lt;b>%1$d&lt;/b>&lt;/font> 字 </string>
+    <string name="ob_string_friend_sift_number">共找到%1$d位联系人 </string>
+    <string name="ob_string_capture_picture_title">选择图片</string>
+    <string name="ob_string_capture_picture_photo">拍照</string>
+    <string name="ob_string_capture_picture_amblul">相册</string>
+    <string name="ob_string_capture_picture_cancel">取消</string>
+    <string name="ob_string_friend_request_title">好友请求消息</string>
+    <string name="ob_string_friend_level">等级: %1$d</string>
+    <string name="ob_string_friend_totalScore">总积分: %1$d</string>
+    <string name="ob_string_friend_score_login">登录终端</string>
+    <string name="ob_string_friend_score_lookvideo">在线观看视频</string>
+    <string name="ob_string_friend_score_downloadVideo">下载视频</string>
+    <string name="ob_string_friend_score_downloadDoc">下载文档</string>
+    <string name="ob_string_friend_score_submitHomework">提交作业</string>
+    <string name="ob_string_friend_score_followTopic">关注主题</string>
+    <string name="ob_string_friend_score_speak">主题发言</string>
+    <string name="ob_string_friend_score_sendmsg">发私信</string>
+    <string name="ob_string_friend_score_addTopic">发主题</string>
+    <string name="ob_string_friend_score_unit1">%1$d 个</string>
+    <string name="ob_string_friend_score_unit2">%1$d 次</string>
+    <string name="ob_string_friend_score_unit3">%1$d 分钟</string>
+    <string name="ob_string_friend_score_info">积分详情</string>
+    <string name="ob_string_friend_request_addfriend_tip">请求已发出,请等待回应</string>
+    <string name="ob_string_friend_detail_modify_nickName_title">昵称编辑</string>
+    <string name="ob_string_friend_detail_modify_nickName_hint">请输入昵称</string>
+    <string name="ob_string_friend_detail_modify_email_title">邮箱编辑</string>
+    <string name="ob_string_friend_detail_modify_email_hint">请输入邮箱</string>
+    <string name="ob_string_friend_detail_modify_phoneNumber_title">电话号码编辑</string>
+    <string name="ob_string_friend_detail_modify_phoneNumber_hint">请输入电话号码</string>
+    <string name="ob_string_friend_detail_modify_Introduce_title">个人简介</string>
+    <string name="ob_string_friend_detail_modify_Introduce_hint">请输入个人简介</string>
+    <string name="ob_string_friend_detail_phoneNumber_illegal">合法输入：0~9、-(减号)</string>
+    <string name="ob_string_friend_detail_nickName_illegal">合法输入：汉字、字母、数字</string>
+    <string name="ob_string_friend_detail_modify_success">保存成功</string>
+    <string name="ob_string_friend_detail_modify_failed">保存失败</string>
+    <string name="ob_string_friend_detail_modify_exits">用户名已存在</string>
+    <string name="ob_string_friend_detail_edit">编辑个人资料</string>
+    <string name="ob_string_friend_dialog_address">地址</string>
+    <string name="ob_string_friend_dialog_ablum">相册</string>
+    <string name="ob_string_friend_add_tips">和对方打个招呼吧！</string>
+    <string name="ob_string_friend_changebg_tip">点击更换背景</string>
+    <string name="ob_string_friend_addFriend_tip">请输入请求信息</string>
+    <string name="ob_string_friend_deleteFriend_tip">解除和"%1$s"好友关系,将会删除和他的聊天记录</string>
+    <string name="ob_string_friend_edit_personalInfo">输入超过限制</string>
+    <string name="ob_string_friend_message_delete_tip">是否确定清空所有消息?</string>
+    <!-- Friend end -->
+
+
+    <!-- Tag: Group start -->
+    <string name="ob_string_Group_Theme">主题</string>
+    <string name="ob_string_Group_Theme_de">主题详情</string>
+    <string name="ob_string_Group_List_title">主题列表</string>
+    <string name="ob_string_Group_MyAttention_title">我关注的</string>
+    <string name="ob_string_Group_MySpeak_title">跟我相关</string>
+    <string name="ob_string_Group_about_me">跟我相关</string>
+    <string name="ob_string_speak_about_me">转发和发言</string>
+    <string name="ob_string_comment_about_me">评论和回复</string>
+    <string name="ob_string_favorite_about_me">赞我的</string>
+    <string name="ob_string_Group_Speak">参与发言</string>
+    <string name="ob_string_Group_Comment">评论</string>
+    <string name="ob_string_Show_You">你的</string>
+    <string name="ob_string_Show_Speak">发言、</string>
+    <string name="ob_string_Show_Forward">转发、</string>
+    <string name="ob_string_Show_Comment">评论、</string>
+    <string name="ob_string_Show_Reply">回复</string>
+    <string name="ob_string_Group_Forward">转发</string>
+    <string name="ob_string_Group_Reply">回复评论</string>
+    <string name="ob_string_Group_Modify_Speak">修改发言</string>
+    <string name="ob_string_Group_Modify_Comment">修改评论</string>
+    <string name="ob_string_Group_Favorite">收藏</string>
+    <string name="ob_string_Group_Favorite_Cancel">取消收藏</string>
+    <string name="ob_string_Group_Praise">赞一个</string>
+    <string name="ob_string_Group_Praise_Success">赞成功!</string>
+    <string name="ob_string_Group_Praise_Fail">赞失败!</string>
+    <string name="ob_string_Group_Praise_already">已经赞过</string>
+    <string name="ob_string_Group_Speak_Detail">发言条目详情</string>
+    <string name="ob_string_Group_collect_success">收藏成功!</string>
+    <string name="ob_string_Group_collect_fail">收藏失败!</string>
+    <string name="ob_string_Group_uncollect_success">取消收藏成功!</string>
+    <string name="ob_string_Group_uncollect_fail">取消收藏失败!</string>
+    <string name="ob_string_Group_collect_forbidden">本人发言不能收藏!</string>
+    <string name="ob_string_Group_attention_text">关注</string>
+    <string name="ob_string_Group_theme_author_text">发布人：</string>
+    <string name="ob_string_Group_speak_count_text_a">共</string>
+    <string name="ob_string_Group_speak_count_text_b">条发言</string>
+    <string name="ob_string_Group_Num_Left">剩余&lt;font color="%1$s">&lt;b>%2$d&lt;/b>&lt;/font>字</string>
+    <string name="ob_string_Group_Num_Comment">评论 (%1$s)</string>
+    <string name="ob_string_Group_count">(%1$d)</string>
+    <string name="ob_string_Group_Btn_Send">发送</string>
+    <string name="ob_string_Group_Warn_Title">提示</string>
+    <string name="ob_string_Group_Warn_Num_Msg">内容不能超过140个字!</string>
+    <string name="ob_string_Group_Warn_No_Msg">内容不能为空!</string>
+    <string name="ob_string_Group_Confirm">确定</string>
+    <string name="ob_string_Group_Btn_Modify">修改</string>
+    <string name="ob_string_Group_Btn_Reply">回复</string>
+    <string name="ob_string_Group_Btn_Delete">删除</string>
+    <string name="ob_string_Group_Send_Success">发送成功</string>
+    <string name="ob_string_Group_Send_Fail">发送失败</string>
+    <string name="ob_string_Group_Delete_Success">删除成功</string>
+    <string name="ob_string_Group_Delete_Fail">删除失败</string>
+    <string name="ob_string_Group_Delete_Notice">确认删除？</string>
+    <string name="ob_string_Group_Speak_Checking">发言审核中...</string>
+    <string name="ob_string_Group_Speak_char">：</string>
+    <string name="ob_string_Group_Speak_error">该发言已被屏蔽／删除</string>
+    <string name="ob_string_Group_Comment_error">该评论已被屏蔽／删除</string>
+    <string name="ob_string_Group_Speak_Pause">本发言含有敏感词，暂时屏蔽，待管理员审核</string>
+    <string name="ob_string_Group_Speak_Shield">本发言含有敏感词，被管理员屏蔽，请修改</string>
+    <string name="ob_string_Group_Comment_Pause">评论含有敏感词，暂时屏蔽，待管理员审核</string>
+    <string name="ob_string_Group_Comment_Shield">评论含有敏感词，被管理员屏蔽，请修改</string>
+    <string name="ob_string_Group_Penalty_Notice">您已经在[%1$s ~ %2$s]期间被禁言!</string>
+    <string name="ob_string_Group_Theme_Toast">该评论所属的主题被屏蔽或者删除，所以你不能进行其它操作</string>
+    <string name="ob_string_Group_Theme_follow">你没有关注该评论所属的主题</string>
+    <string name="ob_string_Group_Speak_Toast">该评论所属的主题被屏蔽或者删除，所以你不能进行其它操作</string>
+    <string name="ob_string_Group_Comment_Toast">该评论本身被屏蔽或者删除，所以你不能进行其它操作</string>
+    <string name="ob_string_Group_No_Attention">您未关注当前主题!</string>
+    <string name="ob_string_Today">今天</string>
+    <string name="ob_string_Yesterday">昨天</string>
+    <string name="ob_string_Group_Publish_Title">该教师发表的主题:</string>
+    <string name="ob_group_theme_promulgator">发布者：%1$s</string>
+    <string name="ob_group_theme_speak_count">共 &lt;font color="#F51717">%1$s&lt;/font> 条发言</string>
+    <string name="ob_group_theme_total_count">共 &lt;font color="#F51717">%1$s&lt;/font> 个主题</string>
+    <string name="public_course_play_count">播放: %1$d万</string>
+    <string name="ob_group_theme_teacher_page">(%1$d)</string>
+    <string name="ob_group_theme_tearch_page_attention">关注主题</string>
+    <string name="ob_group_theme_tearch_page_friends">好友</string>
+    <string name="ob_group_theme_exit">退出</string>
+    <string name="ob_group_myspeak_box">主题：我对中国近代史的了解\n我的评论学者们更倾向于微观历史走向小历史
+                                                走向本土历史走向另类历史比如社区等等。</string>
+    <string name="ob_group_theme_focus">关注成功</string>
+    <string name="ob_group_first_focus_speak">您未关注当前主题，不能发言、评论</string>
+    <string name="ob_group_force_focus_speak">不能取消关注自己发布或负责的主题</string>
+    <string name="ob_group_theme_no_focus">取消关注</string>
+    <string name="ob_Group_Tearcher_page">个人主页</string>
+    <string name="ob_Group_like_speak">赞了你的发言</string>
+    <string name="ob_Group_Comment_speak">评论我的发言：</string>
+    <string name="ob_Group_Comment_speak_answer">评论我：</string>
+    <string name="ob_Group_Comment_Comment">回复我的评论：</string>
+    <string name="ob_Group_Comment_Comment_answer">回复我：</string>
+    <string name="ob_Group_Speak_theme_close">该主题已被屏蔽／删除</string>
+    <string name="ob_Group_Speak_About_Priex">主题：</string>
+    <string name="ob_string_scroll_more">向上滑动加载更多...</string>
+    <string name="ob_Group_get_more">点击查看更多简介</string>
+    <string name="ob_Group_pack_up">点击收起</string>
+    <string name="ob_Group_error_message_before">在［</string>
+    <string name="ob_Group_error_message_Middle">～</string>
+    <string name="ob_Group_error_message_end">］期间被禁言</string>
+    <string name="ob_Group_Homepage_introduce_title">%1$s</string>
+    <string name="ob_Group_theme_favrioute">我的发言：</string>
+    <string name="ob_Group_theme_AttentionUserFixed">强制关注，不允许取消！</string>
+    <string name="ob_Group_theme_status_shield">该主题已被屏蔽</string>
+    <string name="ob_Group_theme_subjecttoaudit">该主题待审核</string>
+    <string name="ob_Group_theme_status_close">该主题已被关闭</string>
+    <string name="ob_Group_theme_status_delete">该主题已被删除</string>
+    <string name="ob_Group_theme_speak_input_tip">请输入发言内容</string>
+    <string name="ob_Group_theme_reply_input_tip">请输入回复内容</string>
+    <string name="ob_Group_theme_comment_input_tip">请输入评论内容</string>
+    <string name="ob_Group_theme_modify_speak_tip">请输入修改发言内容</string>
+    <string name="ob_Group_theme_modify_comment_tip">请输入修改评论,回复内容</string>
+    <string name="ob_Group_theme_textNumber_rule_tip">内容已超过最大字数</string>
+
+    <!-- Group end -->
+
+
+    <!-- wp -->
+    <string name="study_mpics_index">文档缩略图(%1$d页)</string>
+    <string name="jump_topage">跳转</string>
+    <string name="jump_ok">确定</string>
+    <string name="jump_toast">您输入的页码超出范围!</string>
+    <string name="back_list">回目录</string>
+    <string name="exit_fulls">退出</string>
+    <string name="full_screen">全屏</string>
+    <string name="msg_title">奥鹏学吧</string>
+    <string name="msg_content">您收到了一条新消息</string>
+    <string name="msg_ticker">奥鹏学吧新消息</string>
+    <string name="msg_frd_req">好友请求信息</string>
+    <string name="msg_80_code">想要加你为好友</string>
+    <string name="msg_81_code">我通过了你的好友验证请求，开始和我对话吧！</string>
+    <string name="msg_81_code_success">已成为你的好友，打个招呼吧!</string>
+    <string name="msg_delete_text">&#160;%1$d&#160;项被选择</string>
+    <string name="msg_yestoday">昨天</string>
+    <string name="msg_before_yestoday">前天</string>
+    <!-- wp -->
+
+
+    <!-- gaoxin -->
+    <!-- AlertDialog -->
+    <string name="alertdialog_title">提示</string>
+    <string name="alertdialog_message">是否退出学吧？</string>
+    <string name="alertdialog_switch_user">是否退出当前用户？</string>
+    <string name="alertdialog_logout_user">是否注销当前用户？</string>
+    <string name="alertdialog_ok">确定</string>
+    <string name="alertdialog_network_detail">查看详情</string>
+    <string name="alertdialog_cancel">取消</string>
+    <string name="ob_version_update_title">版本更新</string>
+    <string name="ob_version_update_alertdialog_ok">立即更新</string>
+    <string name="ob_version_update_alertdialog_cacel">暂不更新</string>
+    <string name="ob_homework_dialog_save_tips">点击“确定”退出试卷并保存当前答题进度，点击“取消”继续答题.</string>
+    <string name="ob_homework_dialog_exit_tips">退出前是否保存试卷答题进度？点击“确定”退出试卷并保存当前答题进度；点击“取消”退出试卷但不保存当前答题进度；点击“继续答题”返回当前答题页面。</string>
+    <string name="ob_homework_dialog_submit_tips">提交试卷请点击“确认”，返回继续作答请点击“取消”</string>
+    <string name="ob_homework_dialog_exit_continue">继续答题</string>
+    <string name="exit_mqtt_notice">下线通知</string>
+    <string name="login_again">重新登录</string>
+    <!-- gaoxin -->
+    <!-- AlertDialog -->
+
+
+    <!-- tag :Network connection is unavailable -->
+    <!-- gaoxin -->
+    <string name="ob_string_network_tips">当前网络不可用，请检查您的网络设置</string>
+    <string name="networkabort_details_title">&#160;&#160;&#160;&#160;网络连接不可用</string>
+    <string name="networkabort_details_01">\n<b>未能连接到互联网</b>\n
+         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您的设备未启用移动网络或Wi-Fi网络</string>
+    <string name="networkabort_details_02">        \n<b>如需连接到互联网，请参考以下几点：</b>\n
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1).检查手机中的Wifi设置，查看是否有可接入的Wi-Fi信号。\n
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2).检查手机是否已接入移动网络，并且手机没有被停机。\n\n<b>如果您已经接入Wi-Fi网络：</b>\n
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1).请检查您所连接的Wi-Fi热点是否已接入互联网，或该热点是否已允许您设备访问互联网。</string> <!-- tag :Network connection is unavailable -->
+    <string name="ob_string_network_request_failed">网络请求数据失败</string>
+
+    <!-- gaoxin -->
+
+    <string name="ob_string_version_tip">"当前版本已为最新版本"</string>
+    <string name="ob_string_version_update_tip"><br/>奥鹏学吧2.2.1版发布！重新下载安装，更多精彩着你哦！<br/>\n\n 1.更多视频随意看！\n<br/> 2.众多鹏友发起的更in主题随便聊！ \n<br/> 3.全网无限注册的鹏友随心加！<br/>\n\n快下载体验吧！！！</string>
+
+    <string name="mqtt_appid">2</string>
+    <string name="mqtt_appkey">d5b8282025164391a9f2eddbb2e77ffb</string>
+    <string name="mqtt_appsecret">05ff1dfea34c479288a625c5cb5eccf7</string>
+    
+    <string name="system_forced_update_dialog_update_text">更新</string>
+    <string name="system_forced_update_dialog_close_text">关闭程序</string>
+    <string name="system_forced_update_dialog_downloading_text">下载中。。。。。。</string>
+    <string name="system_forced_update_dialog_default_releaes_text">无</string>
+    
+    <string name="notice_tab_tab1_text">学吧通知</string>
+    <string name="notice_tab_tab2_text">教务公告</string>
+    
+    <string name="public_course_view_count_fmt">播放: %1s次</string>
+    <string name="public_course_view_score_fmt">%1s分</string>
+    <string name="public_course_search_coll_choosetip">选择院校</string>
+    <string name="public_course_search_subj_choosetip">选择学科</string>
+    <string name="public_course_search_colleges">全部院校</string>
+    <string name="public_course_search_subjects">全部学科</string>
+    <string name="public_course_search_inputtip">请输入关键字</string>
+    <string name="public_pubtheme_tip1">请在主题列表下发表主题！</string>
+    <string name="public_pubtheme_tip2">请选择一个板块来发表主题！</string>
+    <string name="public_pubtheme_tip3">输入标题</string>
+    <string name="public_pubtheme_tip4">输入内容</string>
+    <string name="public_pubtheme_error_tip1">标题不能为空！</string>
+    <string name="public_pubtheme_error_tip2">内容不能为空！</string>
+    <string name="return_back">return back</string>
+    <string name="courselist">已选课程列表</string>
+    <string name="coursedoc">已选课程文档</string>
+</resources>

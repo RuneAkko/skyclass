@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_main_bg" >
+<LinearLayout
+	    android:id="@+id/navLayout1"
+	    android:layout_height="48dp"
+		android:layout_width="fill_parent"
+	    android:background="@color/white"
+	    android:gravity="center">
+		<TextView 
+		    android:text="公开课"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="18dp"
+			android:background="@color/white"
+		    android:textColor="@color/black">
+		</TextView>
+    </LinearLayout>
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#cccccc"></View>
+   <FrameLayout
+        android:id="@+id/MainFragmentViews"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:layout_below="@id/navLayout1"
+        android:paddingBottom="5dp" >
+      
+    </FrameLayout>
+ 
+</RelativeLayout>

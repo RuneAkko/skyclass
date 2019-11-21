@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   >
+<LinearLayout
+	    android:id="@+id/navLayout" android:layout_height="48dp" 
+		android:layout_width="fill_parent" android:background="@color/tabgreen" android:gravity="center">
+		<TextView 
+		    android:text="已选课程列表"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="18dp"
+		    android:textColor="@color/white">
+		</TextView>
+    </LinearLayout>  
+    
+        <GridView  
+            android:id="@+id/shelf"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent"  
+            android:layout_below="@id/navLayout"
+            android:columnWidth="100dp"              
+            android:horizontalSpacing="20dp"  
+            android:numColumns="4" 
+            android:scrollbars="vertical" 
+            android:padding="15dp"  
+            android:stretchMode="columnWidth"  
+            android:verticalSpacing="15dp" />  
+        
+       <SlidingDrawer  
+        android:id="@+id/sliding"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:content="@+id/ChapterList"  
+        android:handle="@+id/imageViewIcon"  
+        android:orientation="vertical" >
+      
+      <Button  
+            android:id="@+id/imageViewIcon"
+            android:layout_width="fill_parent"  
+            android:layout_height="50dp"  
+            android:text="返回课程列表"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:background="@color/tabgreen" /> 
+         
+    <ExpandableListView
+        android:id="@+id/ChapterList"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true"
+        />
+  
+      </SlidingDrawer>
+       
+</RelativeLayout>

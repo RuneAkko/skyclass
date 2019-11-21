@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="MobileOptimized" content="240"/>
+<meta name="format-detection"  content="telephone=no" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./default/images/favicon.ico" rel="shortcut icon"/>
+<link href="./default/styles/styles.css" rel="stylesheet" type="text/css" />
+
+<script type = "text/javascript">
+function sh(jsondata) {
+var jsonobjs = eval(jsondata);
+var toInsertHtml="<p></p>";
+for(var i = 0; i<jsonobjs.length; i++)
+{
+
+	toInsertHtml+="<p style='margin-top:5px;border-bottom:dotted;border-bottom-width:1px;border-bottom-color:#0078d9;padding-bottom:2px;'>";
+	toInsertHtml+="<a href = 'javascript:sharp.call2(\""+jsonobjs[i].Id +"\")'>" +(i+1)+". "+jsonobjs[i].Title + "</a></p>";
+	
+}
+document.getElementById("newsList").innerHTML=toInsertHtml;
+}
+</script>
+
+</head>
+
+
+<body onload = "javascript:sharp.newslist()">
+		
+	<div class="wm wp">
+    <div class="wptop"></div>
+		<div class="wper">
+       		<div class="idxmn"> 
+			<div class="idxsbar">
+				<div class="idxbox">
+					<div id="idxbox mt20" class="idxbox mt20">
+						<div class="hdv2">
+						<h4><b class="ico greenov"></b>新闻动态</h4>
+					
+					</div>
+					</div>
+					<div id="tabwp" class="tabwp">
+						<div class="tabitem" id="newsList" style='color:red;'>
+							
+						</div>         
+						
+					</div>
+				   
+				   
+				</div>	
+          </div>
+		</div>
+	</div>
+</body>
+</html>

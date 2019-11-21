@@ -1,0 +1,233 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <!--<style name="AppBaseTheme" parent="android:Theme.Light">-->
+        <!--&lt;!&ndash;-->
+            <!--Theme customizations available in newer API levels can go in-->
+            <!--res/values-vXX/styles.xml, while customizations related to-->
+            <!--backward-compatibility can go here.-->
+        <!--&ndash;&gt;-->
+    <!--</style>-->
+
+    <!-- Application theme. -->
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--</style>-->
+    
+    <style name="tab_item_text_style">
+        <item name="android:textSize">9sp</item>
+        <item name="android:ellipsize">marquee</item>       
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="tab_item_background">
+    	<item name="android:textAppearance">@style/tab_item_text_style</item>   	
+        <item name="android:gravity">center_horizontal</item>  
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>         
+        <item name="android:drawablePadding">3.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+       
+       
+    <style name="btn_style">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:background">@drawable/selector_btn</item>
+    	<item name="android:padding">10dp</item>
+    	
+    </style>
+    
+    
+
+  
+    
+    
+    
+      <style name="main_tab_bottom">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <!-- <item name="android:paddingTop">5.0dip</item> -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:drawablePadding">3.0dip</item> -->
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/home_btn_bg</item>
+    </style>
+     <style name="MediaController_SeekBar">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:progressDrawable">@drawable/mediacontroller_seekbar</item>
+        <item name="android:thumb">@drawable/mediacontroller_seekbar_thumb</item>
+    </style>
+   
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+<style name="HKDialogLoading" parent="@android:style/Theme.Dialog">  
+    <item name="android:windowFrame">@null</item>  
+    <item name="android:windowNoTitle">true</item>  
+    <item name="android:windowBackground">@color/transparent</item>  
+    <item name="android:windowIsFloating">true</item>  
+    <item name="android:windowContentOverlay">@null</item>  
+</style>  
+    <style name="dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_untran" parent="dialog_tran">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="dialog_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    
+    <style name="my_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#c0392b</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:onClick">dialogShow</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+ 
+
+    <style name="ButtonBar" parent="@android:style/Holo.Light.ButtonBar.AlertDialog"></style>
+
+   <!--  <style name="ButtonBarButton" parent="@android:style/Widget.Holo.Light.Button.Borderless.Small"></style>
+
+    <style name="ButtonBarButtonGreen" parent="@android:style/Widget.Holo.Light.Button.Borderless.Small"> 
+        
+    </style>-->
+    
+    <style name="NotificationIconPreferenceListItem" parent="@android:style/TextAppearance.Large"></style>
+     <style name="Dialog_Text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/ob_color_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Dialog_Text.White">
+        <item name="android:textColor">@color/ob_color_white</item>
+    </style>
+    
+    <style name="Dialog_Text.White.Title">
+        <item name="android:textSize">22sp</item>
+    </style>
+    
+     <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <!--  <item name="android:background">@drawable/dialog_background</item>-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+   
+    
+    <style name="Theme.AndroidDevelopers" parent="@android:style/Theme.Holo.Light">
+        <!-- style the list navigation -->
+        <item name="android:actionDropDownStyle">@style/myDropdownStyle</item>
+        <!-- style the whole actionbar -->
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+        <!-- 字体颜色 -->
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!-- 显示在item上的样式 -->
+        <item name="android:actionButtonStyle">@style/myActionButton</item>
+        <item name="android:actionMenuTextAppearance">@style/myActionMenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/myActionMenuTextAppearance</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:actionBarDivider">?android:attr/dividerVertical</item> 
+    </style>
+ 
+    <style name="myActionButton" parent="@android:style/Widget.Holo.Light.ActionButton">
+         
+         <item name="android:background">@color/gaingray</item>
+         <item name="android:maxWidth">10dip</item>  
+         <item name="android:gravity">center</item>  
+         <item name="android:paddingLeft">100dip</item>  
+         <item name="android:paddingRight">0dip</item>  
+         <item name="android:scaleType">center</item> 
+         <item name="android:divider">@drawable/divider</item>
+    </style>
+    <style name="myActionMenuTextAppearance" parent="@android:style/Widget.Holo.Light.TextView">
+         <item name="android:background">@drawable/text_back</item>
+         <item name="android:textSize">20dip</item> 
+         <item name="android:textColor">@color/white</item>   
+         <item name="android:gravity">center</item>  
+         <item name="android:paddingLeft">5dip</item>  
+         <item name="android:paddingRight">5dip</item>  
+         <item name="android:textStyle">bold</item> 
+     </style>
+     <style name="myActionOverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+         <item name="android:background">@drawable/text_back</item>
+         <item name="android:textSize">20dip</item> 
+         <item name="android:textColor">@color/white</item>   
+         <item name="android:gravity">center</item>  
+         <item name="android:paddingLeft">5dip</item>  
+         <item name="android:paddingRight">5dip</item>  
+         <item name="android:textStyle">bold</item> 
+    </style>
+    <style name="myActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/gaingray</item>
+        <item name="android:height">50dip</item>
+        <item name="android:divider">@drawable/divider</item>
+    </style>
+    <style name="myDropdownStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/text_back</item>
+        
+        <item name="android:popupBackground">@drawable/text_back</item> 
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>       
+    </style>
+     
+    
+    <style name="spinner_style" >
+        
+    </style>
+
+
+
+</resources>

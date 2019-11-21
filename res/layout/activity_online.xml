@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+    
+    <LinearLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+       
+       <ProgressBar          
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+          />
+      
+       <TextView 
+          
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/loading"
+           />  
+        
+    </LinearLayout>
+    <GridView 
+            android:layout_marginTop="8dip" 
+            android:gravity="top"
+            android:layout_gravity="top"
+            android:id="@+id/onlineGirdView"
+            android:numColumns="2"
+            android:horizontalSpacing="5dip"
+            android:verticalSpacing="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">      
+    </GridView>
+    <LinearLayout
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <TextView 
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/noonline"/>
+    </LinearLayout>  
+</LinearLayout>
+

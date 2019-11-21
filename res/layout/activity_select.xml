@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="8dip"
+        android:textSize="18dip"
+        android:paddingBottom="8dip"
+        android:background="@drawable/text_back"
+        android:text="@string/select"/>
+     <RadioGroup
+        android:id="@+id/radioGroup_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="60dip"
+        >
+        <RadioButton
+            android:id="@+id/radiobutton_major1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/major1"  
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_major2"
+            android:layout_marginTop="8dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/major2"  
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_major3"
+            android:layout_marginTop="8dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/major3"  
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_major4"
+            android:layout_marginTop="8dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/major4"  
+            />
+     </RadioGroup>
+      
+</LinearLayout>

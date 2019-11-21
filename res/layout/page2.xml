@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/navLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="直播课堂"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18dp" >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"></View>
+
+    <LinearLayout 
+        android:id="@+id/noLivecourseLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/nolivecourse"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/nolive"
+            android:text="@string/no_livecourse"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/livecourseLinearLayout"
+        android:layout_width="fill_parent"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <org.giles.ui.widget.OrientListView
+            android:id="@+id/ListView02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/gray1"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:scrollingCache="true" >
+        </org.giles.ui.widget.OrientListView>
+    </LinearLayout>
+
+</LinearLayout>

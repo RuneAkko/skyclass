@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/navLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已选课程"
+            android:textColor="@color/black"
+            android:textSize="18dp" >
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/MBBS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="论坛"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="16dp"
+        android:layout_alignRight="@+id/navLayout"
+        android:visibility="visible"
+        android:clickable="true"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#cccccc"></View>
+
+    <GridView
+        android:id="@+id/shelf"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/navLayout"
+        android:background="@color/white"
+        android:columnWidth="100dp"
+        android:horizontalSpacing="20dp"
+        android:layout_marginTop="1dp"
+        android:numColumns="4"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <Button
+        android:id="@+id/online_service"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/onlineservicebutton"
+        android:contentDescription="@null"
+        android:visibility="visible"
+        android:clickable="true"/>
+
+
+</RelativeLayout>

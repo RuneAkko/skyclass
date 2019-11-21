@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="8dp" >
+    
+		   <FrameLayout 
+			android:id="@+id/img_frame"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		           <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="168dp"  
+		            android:layout_height="110dp"
+				    android:scaleType="fitXY"
+				    android:src="@drawable/public_course_def"
+		             />
+			       
+		           <FrameLayout
+		               android:id="@+id/text_playcount"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:background="@drawable/public_play_count" 
+		               android:layout_gravity="bottom">
+		           </FrameLayout>
+
+			       <TextView
+			       android:id="@+id/pub_course_category"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+				   android:layout_marginLeft="8dp"
+				   android:layout_marginBottom="8dp"
+			       android:singleLine="true"
+			       android:text="category"
+			       android:textColor="#ffffff"
+			       android:textSize="13.5sp"
+			       android:visibility="invisible"
+			       android:layout_gravity="bottom|left" />
+		   </FrameLayout>
+		   
+           <RelativeLayout
+               android:layout_alignLeft="@+id/img_frame"
+		       android:layout_below="@+id/img_frame"
+               android:layout_width="match_parent"
+               android:layout_height="32dp"
+               android:background="#ffffff" 
+               android:layout_gravity="bottom">
+			        <TextView
+			       android:id="@+id/pub_course_name"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center_vertical"
+			       android:singleLine="true"
+			       android:layout_marginLeft="8dp"
+			       android:text="课程名称"
+			       android:textColor="#333333"
+			       android:textSize="12sp"
+			       android:textStyle="bold" />
+			        
+			        <TextView
+			       android:id="@+id/course_viewCount"
+			       android:layout_below="@id/pub_course_name"
+			       android:layout_alignParentLeft="true"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center_vertical"
+			       android:singleLine="true"
+			       android:layout_marginLeft="8dp"
+			       android:text=""
+			       android:textColor="#333333"
+			       android:textSize="11sp"
+			       />
+			        
+			       <TextView
+			       android:id="@+id/course_viewTime"
+			       android:layout_below="@id/pub_course_name"
+			       android:layout_alignParentRight="true"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center_vertical"
+			       android:singleLine="true"
+			       android:layout_marginRight="8dp"
+			       android:text=""
+			       android:textColor="@color/font_red"
+			       android:textSize="11sp"
+			        />
+			       
+           </RelativeLayout>
+		   	
+    </RelativeLayout>

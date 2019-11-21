@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="Meos_Server_Error_201">用户名已经存在，请重新输入</string>
+    <string name="Learningbar.Server.Error.UnKonow">未知错误</string>
+    <string name="Learningbar.Server.Error.Application.SystemInnerException">抱歉，系统内部异常！</string>
+    <string name="Learningbar.Server.Error.Authenticate.AnonymousUserAccessForbid">匿名用户禁止访问！</string>
+    <string name="Learningbar.Server.Error.Authenticate.FailedInLocking">由于短时间内多处登录，账户已锁定！</string>
+    <string name="Learningbar.Server.Error.Authenticate.InValidParams">认证参数无效！</string>
+    <string name="Learningbar.Server.Error.Authenticate.UserAuditStatus.Disable">账户未通过审核!</string>
+    <string name="Learningbar.Server.Error.Authenticate.UserAuditStatus.WatingAudit">账户审核中，请等待！</string>
+    <string name="Learningbar.Server.Error.Authenticate.UserNameOrPasswordEmpty">用户名或密码为空！</string>
+    <string name="Learningbar.Server.Error.Authenticate.UserNameOrPasswordError">用户名或密码错误！</string>
+    <string name="Learningbar.Server.Error.Authenticate.UserStatus.Disable">账户已禁用！</string>
+    <string name="Learningbar.Server.Error.Authenticate.UserStatus.WatingActive">账户未激活！</string>
+
+</resources>
